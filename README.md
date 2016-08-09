@@ -1,3 +1,17 @@
+Bathroom Server Advance
+====
+
+My undergraduate dorm had just two bathrooms per floor of 12
+students. As you might imagine, they were both often full. People
+would wander the halls searching for empty bathrooms. Students
+installed Hall Effect sensors on the doors, so we could check which
+was open and closed online. This was a more advanced version of the
+server, which visualized a path to the nearest empty bathroom.
+
+To get this back up and running, we'd need to repopulate bs.db, which
+was a database mapping IPs to dorm room numbers. And we'd need to go
+back to the days of CGI scripts.
+
 Directory structure: 
 
 /bathroom contains the images and html files that go in the /bathroom
