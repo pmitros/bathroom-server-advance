@@ -1,0 +1,8 @@
+#!/usr/bin/perl
+# 237x365
+
+my $i;
+
+for $i (1..36) {
+    system "convert -draw 'circle 0,0 '. ($i*10) ."," .($i*10) ."' map.gif map.gif";
+}

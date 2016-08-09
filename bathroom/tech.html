@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<html><head><title>Random Hall Bathroom Server Technology</title></head>
+<body bgcolor="#ffffff">
+<table><tr><td rowspan=2>
+<h1> Technology </h1>
+
+<p>To put together the bathroom server required a unique mix of
+engineering and good ol' fashioned Southern know-how. A unique blend
+of MIT mechanical, electronic, civil and computer engineers came
+together to build this product. 
+
+</td><td width=265><img src=intheoven.jpg></td><tr><td  width=265>Random's Riad Wahby forges a raw piece of silicon into a next-generation 128 bit CPU for the bathroom server</td></tr></table>
+<br>
+
+
+<table><tr><td><img src=robot-head.gif></td><td>
+<h2> Detecting bathroom use </h2>
+
+Each bathroom is installed with a
+robotic head. The robot's combination of sensors and artificial
+intelligence allows it to detect when a bathroom is in use in
+real-time. The video is then transmitted to a Cray XMP supercomputer
+for further analysis and refinement of the robotic system. To ensure
+privacy, we use sophisticated cryptography techniques to ensure that
+only a small select group of trusted individual have access (Andrei,
+Shmike and Robert), who are trusted not to abuse it.</td></tr></table>
+
+<img align=right src=map.gif> <h2> Tracing back room locations </h2>
+<p>
+When viewed internally from the dorm, the bathroom server displays the
+path from the user's room to the nearest empty bathroom. The first
+step towards doing this is to determine the user's room.
+<p>
+To do this, we have five servers located around the dorm. Each of
+these servers sends a ping packet to the client machine. The client
+machine responds with a pong packet. The time between when the ping is
+sent and when the pong is received tells us how long it takes the
+packets to travel through the ether in the dorm (ether is a substance
+that permeates all of space. It was postulated in the 1500s,
+discounted in the early 1900s, and then proven to exist with the
+creation of ethernet in the 1970s). The distances to the servers let
+us triangulate the approximate positions of the machines in the
+dorm. We also used more advanced packet interferometry techniques that
+are beyond the scope of this document.
+
+<p> Bright readers might observe that we only need three servers to
+triangulate a location in 3d. While correct, we have two redundant
+servers for added robustness and accuracy. Sadly, fluctuations in the
+ether may distort out readings in much the same way as temperature
+layers in the water distort sonar measurements. If we misread your
+room, please e-mail us, and we will recalibrate our equipment (ether
+is fairly stationary, so the fix should be fairly permanent. 
+
+<h2> Plotting shortest path </h2>
+<p><img align=left src=path.gif>
+
+Normally, finding the closest bathroom and finding the path to it is
+an NP-hard problem (computationally very difficult), and we would not
+have been able to compute it in real-time on our server.
+
+<p> To solve this problem quickly and easily, we rely on Kirkoff's
+Current Law, which states that electricity always takes the shortest
+path between two points. We run a small current from one bathroom
+location to another, and use magnetics to trace back the electron
+flow.
+
+<h1> Details </h1>
+
+<p> Some people may want technical details for amusement or setting up
+their own bathroom server. As such, we have: 
+
+<ul>
+<li> Board schematics
+<li> Code for interfacing a computer to the boards
+<li> Code for the web cgi-script
+</ul>
+
+All source is licensed under the FSF/GNU General Public License. 
+
+<br><br>
+</center>
+<hr width="50%">
+
+<p><font size=1>Copyright (C) 2001, MIT Random Nerds. This and all
+other bathroom server material may be distributed only subject to the
+terms and conditions set forth in the Open Publication License, v1.0
+or later (the latest version is presently available at <a
+href="http://www.opencontent.org/openpub/">http://www.opencontent.org/openpub/</a>). Questions?
+Comments?  Concerns?  &lt;<a
+href="mailto:random-nerds@mit.edu">random-nerds@mit.edu</a>&gt;</font>
+<p>
+20041
+</body></html>
